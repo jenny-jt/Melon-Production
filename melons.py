@@ -34,7 +34,7 @@ class Melon(object):
 # FIXME: Add Squash class definition here.
 class Squash(Melon):
     def __init__(self, melon_type):
-        super().__init__(self, 'wintersquash')
+        super().__init__('wintersquash')
 
     def prep(self):
         """Paints the squash green"""
